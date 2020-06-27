@@ -41,7 +41,7 @@ $(document).ready(function() {
             <div class="content">
               <h2>${response[i].name}</h2>
               <h3>${date}</h3>
-              <p>Link to Repo: <br> <a href="${response[i].url}">${response[i].url}</a></p>
+              <p>Click <a href="${response[i].url}">here</a> to visit repo</p>
 
             </div>
           </div>
