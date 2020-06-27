@@ -39,8 +39,10 @@ $(document).ready(function() {
         $('.timeline').append(`
           <div class="container ${position}">
             <div class="content">
-              <h2>${date}</h2>
-              <p>${response[i].name}</p>
+              <h2>${response[i].name}</h2>
+              <h3>${date}</h3>
+              <p>Link to Repo: <br> <a href="${response[i].url}">${response[i].url}</a></p>
+
             </div>
           </div>
         `)
