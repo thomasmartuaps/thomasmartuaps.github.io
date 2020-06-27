@@ -31,9 +31,11 @@ $(document).ready(function() {
       for(i=0; i < response.length; i++) {
         console.log(response[i])
         let date = dateConverter(response[i].updated_at)
+        // Decides whether this repo gets shown in the left or right side of timeline
         let position = ''
         if(i % 2 === 0) position = 'left'
         else position = 'right'
+        // End of positioning
         $('.timeline').append(`
           <div class="container ${position}">
             <div class="content">
