@@ -4,10 +4,17 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
+
 /* Set a background color */
 body {
   background-color: #252827;
   font-family: 'Source Sans Pro', sans-serif;
+}
+
+/* For links */
+a {
+  color: #66ffff;
 }
 
 /* For header */
@@ -15,6 +22,7 @@ body {
   margin: 5vh;
   color: #ffffff;
   text-align: center;
+  font-family: 'Saira', sans-serif;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -29,7 +37,7 @@ body {
   content: '';
   position: absolute;
   width: 6px;
-  background-color: #f737a1;
+  background-color: #e2909f;
   top: 0;
   bottom: 0;
   left: 50%;
@@ -52,7 +60,7 @@ body {
   width: 20px;
   height: 20px;
   right: -16px;
-  background-color: #525252;
+  background-color: #b109b1;
   /* outline: 4px solid #8537da; */
   border: 6px solid #f737a1;
   top: 15px;

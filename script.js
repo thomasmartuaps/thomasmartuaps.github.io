@@ -60,7 +60,7 @@ $(document).ready(function() {
               <h3>
                 ${sortedRepos[i].name}
               </h3>
-              <p>Click <a href="${sortedRepos[i].url}">here</a> to visit repo</p>
+              <p>Click <a href="${sortedRepos[i].html_url}">here</a> to visit repo</p>
 
             </div>
           </div>
