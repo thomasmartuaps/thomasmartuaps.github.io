@@ -27,6 +27,7 @@ a {
   color: #ffffff;
   text-align: center;
   font-family: 'Saira', sans-serif;
+  border-radius: 0% 0% 10% 10%;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -34,10 +35,14 @@ a {
   position: relative;
   max-width: 1200px;
   margin: 0 auto;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  margin-bottom: -5vh;
 }
 
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
+  padding-top: 10px;
   content: '';
   position: absolute;
   width: 6px;
@@ -60,12 +65,10 @@ a {
 .container::after {
   content: '';
   position: absolute;
-  /* padding: -5px; */
   width: 20px;
   height: 20px;
   right: -16px;
   background-color: #2c2f2e;
-  /* outline: 4px solid #8537da; */
   border: 6px solid #3a4263;
   top: 15px;
   border-radius: 50%;
